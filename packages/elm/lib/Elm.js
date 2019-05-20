@@ -1,5 +1,7 @@
 const discord =require('discord.js');
 const commands = require('./commands');
+import env from '.env'
+
 
 const client = new discord.Client
 
@@ -20,4 +22,4 @@ client.on('message', msg => {
   }
 })
 
-client.login('NTc5OTQ1MjEwMTY0MDE5MjEy.XOJiFQ.-Oq_9_ya7UuRz7FQoQG9-5SlbJE')
+client.login(env.elm)
