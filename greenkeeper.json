@@ -1,0 +1,13 @@
+{
+  "groups": {
+    "default": {
+      "packages": [
+        "package.json",
+        "packages/elm/package.json",
+        "packages/poke-rpg/package.json",
+        "packages/rowan/package.json",
+        "packages/team-rocket/package.json"
+      ]
+    }
+  }
+}
